@@ -22,7 +22,7 @@ class EmployeeController extends Controller
             $insert['phone'] = $request['phone'];
             $insert['rol'] = $request['rol'];
 
-            Employee::insert($insert);
+            Employee::create($insert);
 
             $response['message'] = "Save succesful";
             $response['succes'] = true;
