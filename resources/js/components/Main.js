@@ -25,4 +25,4 @@ function Main() {
 
 export default Main;
 // for <div id="main-employee"></div>
-ReactDOM.render(<Main />, document.getElementById("app"));
+// ReactDOM.render(<Main />, document.getElementById("app"));

@@ -2124,8 +2124,7 @@ function Main() {
 }
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Main); // for <div id="main-employee"></div>
-
-react_dom__WEBPACK_IMPORTED_MODULE_1__.render( /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)(Main, {}), document.getElementById("app"));
+// ReactDOM.render(<Main />, document.getElementById("app"));
 
 /***/ }),
 
