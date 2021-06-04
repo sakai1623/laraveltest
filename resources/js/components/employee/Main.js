@@ -2,9 +2,9 @@ import React, { Component } from "react";
 import ReactDOM from "react-dom";
 
 import Nav from "./Nav";
-import Form from "./employee/Form";
-import List from "./employee/List";
-import Edit from "./employee/Edit";
+import Form from "./Form";
+import List from "./List";
+import Edit from "./Edit";
 
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
@@ -25,4 +25,4 @@ function Main() {
 
 export default Main;
 // for <div id="main-employee"></div>
-// ReactDOM.render(<Main />, document.getElementById("app"));
+ReactDOM.render(<Main />, document.getElementById("employee"));

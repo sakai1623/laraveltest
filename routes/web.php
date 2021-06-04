@@ -22,3 +22,6 @@ Auth::routes();
 //     return view('employee');
 // })->where('any','.*');
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::get('/employee', [App\Http\Controllers\EmployeeController::class, 'index'])->name('employee');
+Route::get('/employee/index', [App\Http\Controllers\EmployeeController::class, 'index'])->name('employee');
+Route::get('/employee/form', [App\Http\Controllers\EmployeeController::class, 'index'])->name('employee');
